@@ -5,7 +5,7 @@
  * Copyright 2018-2020 codecalm
  * Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
  */
-@import url(https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap);
+@import url(https://api.fonts.coollabs.io/css2?family=Ubuntu:wght@300;400;500;600;700&display=swap);
 
 :root {
     --bs-blue: #206bc4;
