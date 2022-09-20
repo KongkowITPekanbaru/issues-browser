@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Kongkow GitHub Activity Stream</title>
+    <title>Kongkow Good First Issue</title>
     <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -91,16 +91,6 @@
     <meta name="theme-color" content="#ffffff" />
     <link href="./dist/css/tabler.min.css" rel="stylesheet" />
     <link href="./dist/css/style.css" rel="stylesheet" />
-
-    <link
-      rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="//unpkg.com/github-activity-feed@latest/dist/github-activity.min.css"
-    />
-
     <style>
       body {
         display: none;
@@ -189,7 +179,7 @@
                     <span class="nav-link-title">Open Issues</span>
                   </a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="./activity.html">
                     <span class="nav-link-icon d-lg-inline-block">
                       <svg
@@ -213,7 +203,7 @@
                     <span class="nav-link-title">Activity Stream</span>
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="./good-first-issue.html">
                     <span class="nav-link-icon d-lg-inline-block">
                       <svg
@@ -243,14 +233,14 @@
           <div class="page-header text-white">
             <div class="row align-items-center">
               <div class="col-auto">
-                <h2 class="page-title">GitHub Activity Stream</h2>
+                <h2 class="page-title"></h2>
               </div>
             </div>
           </div>
           <div class="row justify-content-center">
             <div class="d-none d-lg-block col-lg-3 order-lg-1 mb-4">
               <a
-                href="https://kongkowitpku.xyz/discord"
+                href="https://discord.gg/HPJb93BrmR"
                 class="btn btn-white btn-block"
                 target="_blank"
                 rel="noreferrer"
@@ -274,10 +264,15 @@
                 </svg>
                 Join Discord
               </a>
+              <div class="sticky-top pt-6">
+                <h5 class="subheader">Repositories</h5>
+                <ul class="list-unstyled">
+                  <!-- <li class="toc-entry toc-h2"><a href="#what-is-tabler">What is Tabler?</a></li> -->
+                </ul>
+                <a class="subheader" href="#top">BACK TO TOP</a>
+              </div>
             </div>
-            <div id="main" class="col-lg-9">
-              <div class="card" id="feed"></div>
-            </div>
+            <div id="main" class="col-lg-9"></div>
           </div>
         </div>
         <footer class="footer footer-transparent">
@@ -311,25 +306,10 @@
     <script src="./dist/js/tabler.min.js"></script>
     <!-- Dark Mode -->
     <script src="./dist/js/dark-mode.js"></script>
-    <!-- GitHub Activity -->
-    <script src="./dist/js/github-activity.js"></script>
-    <script src="./dist/js/mustache.min.js"></script>
+    <script src="./dist/js/repos.js"></script>
     <script>
       document.body.style.display = "block";
     </script>
-    <script>
-      GitHubActivity.feed({
-        username: "kongkowitpku",
-        selector: "#feed",
-        limit: 100, // optional
-      });
-    </script>
-    <!-- umami -->
-    <script
-      async
-      defer
-      data-website-id="42091b2d-3e9f-41ba-a71b-dd448c16dd07"
-      src="https://umami.kongkowitpku.xyz/mojok.js"
-    ></script>
+    <script src="./dist/js/good-first-issue.js"></script>
   </body>
 </html>
