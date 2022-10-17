@@ -1,4 +1,4 @@
-# Kongkow Issues Browser [![Netlify Status](https://api.netlify.com/api/v1/badges/d3edf167-d37b-4797-bb2b-e8b64fd8f587/deploy-status)](https://app.netlify.com/sites/kongkow-issues/deploys)
+# Kongkow Issues Browser
 
 Welcome to Kongkow IT Pekanbaru Open Issues Browser repo.
 
